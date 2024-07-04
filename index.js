@@ -87,7 +87,7 @@ function finishOrder() {
     var cashAmount = parseFloat(cash.value);
 
     if (cashAmount >= totalAmount && totalAmount > 0) {
-        alert("Order Successful!\n\n" + "Products Purchased:\n" + carts.textContent + "\n  !");
+        alert("Order Successful!\n\n" + "Products Purchased:\n" + carts.textContent + "\n  ");
         carts.textContent = "";
         total.value = "";
         cash.value = "";
